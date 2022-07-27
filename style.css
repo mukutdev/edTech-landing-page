@@ -3,3 +3,51 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+/* hero carousel css */
+.carousel-item::before{
+    position: absolute;
+    content: '';
+    background-color: rgb(0 0 0 / 60%);
+    height: 100%;
+    width: 100%;
+}
+.carousel-inner > .carousel-item  > img {
+    height:700px !important;
+    object-fit: cover;
+}
+.carousel-caption{
+    top: 50%;
+}
+.carousel-caption-heading{
+    font-size: 48px;
+}
+.paragraph-text{
+    font-size: 18px;
+}
+/* Responsive Media queries */
+
+/* Mobile device */
+@media only screen and (max-width:576px) {
+    .carousel-inner > .carousel-item  > img {
+        height:500px !important;
+    }
+    .carousel-caption{
+        top: 20%;
+    }
+    .carousel-caption-heading{
+        font-size: 26px;
+    }
+    .paragraph-text{
+        font-size: 16px;
+    }
+}
+/* Tablet devices */
+@media only screen and (min-width: 577px) and (max-width: 768px)  {
+
+    .carousel-caption{
+        top: 30%;
+    }
+    .carousel-caption-heading{
+        font-size: 36px;
+    }
+}
