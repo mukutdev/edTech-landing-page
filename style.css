@@ -35,6 +35,13 @@ body{
 .spacing{
     padding: 300px 0;
 }
+/* testimonial btn css */
+.testimonial-btn-left{
+    left: -5px;
+}
+.testimonial-btn-right{
+    right: -5px;
+}
 /* button style */
 .cs-social-btn{
     background-color: #5a5a5a87 !important;
