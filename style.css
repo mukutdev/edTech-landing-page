@@ -24,6 +24,17 @@ body{
 .paragraph-text{
     font-size: 18px;
 }
+/* elearning section css */
+.inner-img{
+    background-image: url(./images/working.png);
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    padding: 400px 0;
+}
+.spacing{
+    padding: 300px 0;
+}
 /* Responsive Media queries */
 
 /* Mobile device */
@@ -40,9 +51,12 @@ body{
     .paragraph-text{
         font-size: 16px;
     }
+    .spacing{
+        padding: 192px 0;
+    }
 }
 /* Tablet devices */
-@media only screen and (min-width: 577px) and (max-width: 768px)  {
+@media only screen and (min-width: 577px) and (max-width: 992px)  {
 
     .carousel-caption{
         top: 30%;
@@ -50,4 +64,8 @@ body{
     .carousel-caption-heading{
         font-size: 36px;
     }
+    .spacing{
+        padding: 200px 0;
+    }
+    
 }
