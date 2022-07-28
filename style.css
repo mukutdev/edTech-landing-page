@@ -12,11 +12,11 @@ body{
     width: 100%;
 }
 .carousel-inner > .carousel-item  > img {
-    height:700px !important;
+    height:700px ;
     object-fit: cover;
 }
 .carousel-caption{
-    top: 50%;
+    top: 38%;
 }
 .carousel-caption-heading{
     font-size: 48px;
@@ -29,13 +29,13 @@ body{
 /* Mobile device */
 @media only screen and (max-width:576px) {
     .carousel-inner > .carousel-item  > img {
-        height:500px !important;
+        height:500px ;
     }
     .carousel-caption{
         top: 20%;
     }
     .carousel-caption-heading{
-        font-size: 26px;
+        font-size: 22px;
     }
     .paragraph-text{
         font-size: 16px;
