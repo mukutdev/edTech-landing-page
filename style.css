@@ -35,6 +35,10 @@ body{
 .spacing{
     padding: 300px 0;
 }
+/* button style */
+.cs-social-btn{
+    background-color: #5a5a5a87 !important;
+}
 /* Responsive Media queries */
 
 /* Mobile device */
